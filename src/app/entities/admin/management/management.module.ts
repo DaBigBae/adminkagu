@@ -4,6 +4,7 @@ import { CommonModule } from "@angular/common";
 import { ManagementRoutingModule } from "./management-routing.module";
 import { ManagementComponent } from "./management.component";
 
+
 @NgModule({
   declarations: [ManagementComponent],
   exports: [ManagementComponent],

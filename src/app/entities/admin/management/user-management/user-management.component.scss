@@ -11,7 +11,7 @@ td {
     padding: 5px;
     border-radius: 8px;
     width: 87px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .admin {
     font-size: 12px;
@@ -21,7 +21,7 @@ td {
     padding: 5px;
     border-radius: 8px;
     width: 87px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
 }
 
@@ -107,4 +107,8 @@ option {
 
 .text-primary{
   color: #3cbba4 !important;
+}
+
+td {
+  vertical-align: middle;
 }

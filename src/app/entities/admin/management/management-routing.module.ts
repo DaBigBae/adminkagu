@@ -36,6 +36,11 @@ const routes: Routes = [
         path: "message-management",
         loadChildren:
           "./message-management/message-management.module#MessageManagementModule"
+      },
+      {
+        path: "discount-management",
+        loadChildren:
+          "./discount-management/discount-management.module#DiscountManagementModule"
       }
     ]
   }

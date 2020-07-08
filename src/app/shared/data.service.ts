@@ -28,7 +28,7 @@ export class DataService {
         break;
       case 401:
         console.log(errCode.error.status);
-        this.router.navigate(["/admin"]);
+        this.router.navigate(["/"]);
         break;
       default:
         break;

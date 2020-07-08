@@ -5,10 +5,10 @@ import { Router } from "@angular/router";
 
 @Component({
   selector: "app-product-management",
-  templateUrl: "./product-management.component.html",
-  styleUrls: ["./product-management.component.scss"]
+  templateUrl: "./discount-management.component.html",
+  styleUrls: ["./discount-management.component.scss"]
 })
-export class ProductManagementComponent implements OnInit {
+export class DiscountManagementComponent implements OnInit {
   @ViewChild("formSignUp", { static: false }) formSignUp: NgForm;
   @ViewChild("formEdit", { static: false }) formEdit: NgForm;
   constructor(private _dataService: DataService, private router: Router) {}
